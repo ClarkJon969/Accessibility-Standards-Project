@@ -53,6 +53,7 @@ header {
 }
 
 /*
+The list header has no style type.
 */
 header  ul {
     list-style-type: none;
@@ -60,9 +61,7 @@ header  ul {
 }
 
 /*
-Having trouble getting the ul li tags to be aligned to the right. I have tried a number of things including 
-changing the display, making it flex, various text aligns. I have a feeling that moving the h1 tag 
-under ul may have created conflicts.
+The list header has a display of inline block. a left margin of 25px, and is aligned right. 
 */
 
 header  ul li {
@@ -74,6 +73,7 @@ header  ul li {
 }
 
 /*
+The a tag has white text and has no text decoration.
 */
 a {
     color: #ffffff;
@@ -81,23 +81,28 @@ a {
 }
 
 /*
+The p tag has a font size of 16px.
 */
 p {
     font-size: 16px;
 }
 
 /*
+The "hero" section has a height of 800px, a width of 100 percent, a bottom margin of 25px, 
+ and the background image covers the entire container while being centered. 
 */
 .hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-image: url("../images/Digital-Marketing-Meeting.jpg");
     background-size: cover;
     background-position: center;
 }
 
 /*
+The image class float left property called "search-engine-optimization" and "social-media-marketing" float left 
+and has a right margin of 25px.
 */
 .float-left {
     float: left;
@@ -105,6 +110,8 @@ p {
 }
 
 /*
+The image class float right property called "online-reputation-management" floats right and has 
+a left margin of 25px.
 */
 .float-right {
     float: right;
@@ -112,6 +119,7 @@ p {
 }
 
 /*
+The main class "content" has a width of 75 percent, is displayed in inline block, and is margined left 20px. 
 */
 .content {
     width: 75%;
@@ -120,6 +128,8 @@ p {
 }
 
 /*
+The main class "benefits" has a right margin of 20px, a padding of 20px, the element is below, left as well as right 
+of the floated elements, it floats right, has a 20 percent width, a 100 percent height, a font family
 */
 .benefits {
     margin-right: 20px;
@@ -133,6 +143,7 @@ p {
 }
 
 /*
+The section class "benefit lead" has a bottom margin of 32px and the text color is white.
 */
 .benefit-lead {
     margin-bottom: 32px;
@@ -140,6 +151,7 @@ p {
 }
 
 /*
+The section class "benefit brand" has a bottom margin of 32px and the text color is white. 
 */
 .benefit-brand {
     margin-bottom: 32px;
@@ -147,6 +159,7 @@ p {
 }
 
 /*
+The section class "benefit cost" has a bottom margin of 32px and the text color is white. 
 */
 .benefit-cost {
     margin-bottom: 32px;
@@ -154,6 +167,7 @@ p {
 }
 
 /*
+The h3 class "benefit lead" has a bottom margin of 10px and is aligned in the center.
 */
 .benefit-lead h3 {
     margin-bottom: 10px;
@@ -161,6 +175,7 @@ p {
 }
 
 /*
+The h3 class "benefit brand" has a bottom margin of 10px and is aligned in the center. 
 */
 .benefit-brand h3 {
     margin-bottom: 10px;
@@ -168,6 +183,7 @@ p {
 }
 
 /*
+The h3 class "benefit cost h3" has a bottom margin of 10px and is aligned in the center. 
 */
 .benefit-cost h3 {
     margin-bottom: 10px;
@@ -175,6 +191,7 @@ p {
 }
 
 /*
+The "benefit lead img" is displayed in block, has a margin of 10px, and a max width of 150px.
 */
 .benefit-lead img {
     display: block;
@@ -183,6 +200,7 @@ p {
 }
 
 /*
+The "benefit brand img" is displayed in block, has a margin of 10px, and a max width of 150px.
 */
 .benefit-brand img {
     display: block;
@@ -191,6 +209,7 @@ p {
 }
 
 /*
+The "benefit cost img" is displayed in block, has a margin of 10px, and a max width of 150px.
 */
 .benefit-cost img {
     display: block;
@@ -199,6 +218,9 @@ p {
 }
 
 /*
+The class section "search engine optimization" has a bottom margin of 20px, padding of 50px, 
+height of 300px, font family consisting of 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+a background collor of blue, and a text color of white. 
 */
 .search-engine-optimization {
     margin-bottom: 20px;
@@ -210,6 +232,9 @@ p {
 }
 
 /*
+The class section "online reputation management" has a bottom margin of 20px, padding of 50px, 
+height of 300px, font family consisting of 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+a background collor of blue, and a text color of white.
 */
 .online-reputation-management {
     margin-bottom: 20px;
@@ -221,6 +246,9 @@ p {
 }
 
 /*
+The class section "social media marketing" has a bottom margin of 20px, padding of 50px, 
+height of 300px, font family consisting of 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+a background collor of blue, and a text color of white.
 */
 .social-media-marketing {
     margin-bottom: 20px;
@@ -232,24 +260,28 @@ p {
 }
 
 /*
+The class image "search engine optimization" has a max height of 200px.
 */
 .search-engine-optimization img {
     max-height: 200px;
 }
 
 /*
+The class image "online reputation management" has a max height of 200px.
 */
 .online-reputation-management img {
     max-height: 200px;
 }
 
 /*
+The class image "social media marketing" has a max height of 200px. 
 */
 .social-media-marketing img {
     max-height: 200px;
 }
 
 /*
+The h2 class "search engine optimization" heading has a bottom margin of 20px and a font size of 36px.
 */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
@@ -257,6 +289,7 @@ p {
 }
 
 /*
+The h2 class "online reputation management" has a bottom margin of 20px and a font size of 36px.
 */
 .online-reputation-management h2 {
     margin-bottom: 20px;
@@ -264,6 +297,7 @@ p {
 }
 
 /*
+The h2 class "social media marketing" has a bottom margin of 20px and a font size of 36px.
 */
 .social-media-marketing h2 {
     margin-bottom: 20px;
@@ -271,6 +305,9 @@ p {
 }
 
 /*
+The footer tag has a padding of 30px, the element is below, left as well as right 
+of the floated elements, the font family consists of 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;,
+and the text is aligned in the center. 
 */
 footer {
     padding: 30px;
@@ -280,7 +317,9 @@ footer {
 }
 
 /*
+The h2 footer tag has a font size of 20px.
 */
 footer h2 {
     font-size: 20px;
 }
+
